@@ -1,2 +1,6 @@
+airflow:
+    expose_port: "true"
 project:
-    name: datapipeline
+    name: crypto_etl
+webserver:
+    port: "80"
