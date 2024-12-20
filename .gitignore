@@ -18,3 +18,5 @@ downloads/*
 env/
 
 __pycache__/
+
+cookies.json
