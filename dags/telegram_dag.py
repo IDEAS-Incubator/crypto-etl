@@ -103,7 +103,7 @@ with DAG(
                     s3_folder = f"telegram/{chat_username}/{year}/{month}/{day}/{file_name}"
                     
                     # Upload the file to S3
-                    s3_manager.upload_file(file_path=filepath, file_name=file_name, key=s3_folder)
+                    s3_manager.upload_file(file_path=filepath,key=s3_folder)
                     logger.info(f"Uploaded file to S3: {s3_folder}")
                     
                     # Remove the file after successful upload
